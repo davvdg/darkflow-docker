@@ -14,3 +14,4 @@ RUN 	cd "/" && \
 	rm -rf darkflow
 
 ADD Darkflow_Tiny_Yolo_demo.ipynb /notebooks
+RUN mkdir /log
